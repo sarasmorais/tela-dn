@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de Login Segura e Elegante">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="login, acesso, segurança, conta">
+    <title>Login | Minha Plataforma </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="card-login">
+        <main class="Login-container">
+            <header>
+                <h1>Login</h1>
+                
+            </header>
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    
+                    <div class="input-group">
+                        <label for="email"> </label>
+                        <input type="email" name="email" id="email" placeholder="E-mail " required
+                            autofocus>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    
+                    <div class="input-group">
+                        <label for="password"></label>
+                        <input type="password" name="password" id="password" placeholder="Senha" required>
+                    </div>
+                </div>
+                <div class="btn">
+                    <input class="btn-submit"type="submit"value = "Acessar">
+                </div>
+                <div class="forget-password">
+                    <a href="/criar-conta">Já é assinante e não tem login?</a>
+                    <a href="/recuperar-senha">Esqueceu a senha?</a>
+                </div>
+                
+            </form>
+
+        </main>
+    </div>
+</body>
+
+</html>

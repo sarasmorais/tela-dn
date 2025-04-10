@@ -1,0 +1,81 @@
+h1{
+    font-size: 50px;
+    color: #259771;
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-login{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(247, 242, 242);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0, 0, 0.1);
+}
+
+
+div.form-group{
+    width: 100%;
+    margin: 30px ;
+}
+
+.input-group input {
+    color: rgb(126, 126, 131); 
+    font-weight: bold; 
+    font-size: 16px;
+    position: relative;
+    left: 0;
+    bottom: 5px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: 0;
+    background-color: rgb(247, 242, 242);
+
+}
+
+
+
+
+.btn-submit{
+    font-size: 22px;
+    color: #ecf1f5;
+    background-color: #259771;
+    display: flex;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 30px;
+    height: 45px;
+    border: none;
+    width: 200px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #236d57;
+    cursor:pointer;
+}
+.forget-password{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 55px;
+    margin-left: 40px;
+    font-size: 12px;   
+}
+
+.forget-password a {
+  color: #259771; 
+  text-decoration: none; 
+  font-weight: bold;
+  }
+
+.forget-password a:hover {
+  color: #259771; 
+  text-decoration:underline;
+  
+}
